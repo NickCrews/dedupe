@@ -62,7 +62,7 @@ mkvirtualenv dedupe
 git clone git://github.com/dedupeio/dedupe.git
 cd dedupe
 pip install "numpy>=1.9"
-pip install -r requirements.txt
+pip install -r dev-requirements.txt
 cython src/*.pyx
 pip install -e .
 ```
